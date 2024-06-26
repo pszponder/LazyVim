@@ -3,6 +3,8 @@
 -- Add any additional options here
 local opt = vim.opt
 opt.expandtab = false -- Use spaces instead of tabs (if true)
-opt.shiftwidth = 4 -- Size of an indent
+opt.shiftwidth = 4    -- Size of an indent
 opt.softtabstop = 4
 opt.tabstop = 4
+
+vim.g.lazyvim_python_ruff = "ruff_lsp"
